@@ -1,7 +1,7 @@
 /*
 Author:
 Date:
-File Name: 
+File Name:
 */
 
 /* CSS Reset */
@@ -27,3 +27,40 @@ footer {
 	font-size: .70em;
 	text-align: center;
 }
+
+/* Style for the Table */
+ table{
+   width: 80%;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid #71881b;
+ }
+
+ /* Style for the Table */
+  table,tr,th,td{
+    border: 0;
+    padding: 2%;
+  }
+
+  /* Style for the Table */
+   tr{
+     background-color: #d3e788;
+   }
+
+   /* Style for the Table */
+    th,td{
+      border: 1px solid #71881b;
+    }
+
+    /* Style for the Table */
+     td{
+       text-align: center;
+     }
+
+     caption{
+       font-size: 2em;
+       padding: 2%;
+       margin-top: 2%;
+     }
